@@ -1,12 +1,16 @@
-import { Heading } from '@digdir/designsystemet-react'
-import './App.css'
+import { Heading } from '@digdir/designsystemet-react';
+import './App.css';
+import { Buttons } from './components/buttons.tsx';
 
 function App() {
   return (
     <>
-      <Heading>Test</Heading>
+      <Heading>Mattilsynet test</Heading>
+      <Buttons variant='primary' />
+      <Buttons variant='secondary' />
+      <Buttons variant='tertiary' />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
